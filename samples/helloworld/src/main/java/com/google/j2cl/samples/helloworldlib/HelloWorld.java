@@ -27,6 +27,7 @@ import jsinterop.annotations.JsType;
 public class HelloWorld {
 
   public static String getHelloWorld() {
+    ServerRequest<String, Integer> serverRequest = new ServerRequest<>();
     return "Hello from Java!";
   }
 }
